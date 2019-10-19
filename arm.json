@@ -149,7 +149,7 @@
       ],
       "properties": {
         "siteConfig": {
-          "linuxFxVersion": "DOCKER|bitnami/sonarqube"
+          "linuxFxVersion": "DOCKER|bitnami/sonarqube:latest"
         },
         "name": "[parameters('siteName')]",
         "serverFarmId": "[variables('hostingPlanName')]",
